@@ -13,6 +13,7 @@ class Library:
 
     def say_info(self):
         print(f"Library Address: {self.address}, Phone: {self.phone}")
+        print("+_+_+_+_+_+_+_+_+_+_+_+_+_+_+")
 
     def say_books(self):
         for book in self.books:
@@ -22,6 +23,8 @@ class Library:
     def add_book(self, book: Book):
         self.books.append(book)
         print(f"Book '{book.title}' added to the library.")
+        print("+_+_+_+_+_+_+_+_+_+_+_+_+_+_+")
+
        
 
 
@@ -31,6 +34,8 @@ class Library:
                 book.say_info()
                 return book
         print("Book not found.")
+        print("+_+_+_+_+_+_+_+_+_+_+_+_+_+_+")
+
        
         return None
 
@@ -42,6 +47,7 @@ class Library:
     def add_person(self, person: Person):
         self.persons.append(person)
         print(f"Person '{person.f_name} {person.l_name}' added to the library.")
+        print("+_+_+_+_+_+_+_+_+_+_+_+_+_+_+")
         
 
 
